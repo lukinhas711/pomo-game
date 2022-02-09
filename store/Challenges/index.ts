@@ -5,7 +5,7 @@ import { State } from './types'
 export const state = (): State => ({
   level: 1,
   xp: {
-    current: 0,
+    current: 32,
     start: 0,
     end: 64,
   },

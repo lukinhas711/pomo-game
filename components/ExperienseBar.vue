@@ -44,7 +44,7 @@ export default Vue.extend({
 }
 
 .progressBar {
-  @apply relative bg-green-50 h-1;
+  @apply relative bg-green-500 h-1;
 }
 
 .barInfo {
