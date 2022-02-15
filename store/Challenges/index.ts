@@ -9,7 +9,7 @@ export const state = (): State => ({
     start: 0,
     end: 64,
   },
-  completeChallenges: 0,
+  completedChallenges: 0,
   currentChallengeIndex: null,
   isLevelUpModalOpen: false,
   allChallenges,

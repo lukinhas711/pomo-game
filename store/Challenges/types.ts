@@ -21,7 +21,7 @@ export interface Cookie {
 export interface State {
   level: number
   xp: XP
-  completeChallenges: number
+  completedChallenges: number
   currentChallengeIndex: number | null
   isLevelUpModalOpen: boolean
   allChallenges: Challenge[]
