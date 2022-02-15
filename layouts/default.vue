@@ -1,18 +1,18 @@
 <template>
   <div :class="$style.container">
-    <ExperienseBar />
+    <ExperienceBar />
     <Nuxt />
   </div>
 </template>
 
 <script lang="ts">
 import Vue from 'vue'
-import ExperienseBar from '~/components/atoms/ExperienseBar.vue'
+import ExperienceBar from '~/components/atoms/ExperienceBar.vue'
 
 export default Vue.extend({
   name: 'Default',
   components: {
-    ExperienseBar,
+    ExperienceBar,
   }
 })
 </script>
