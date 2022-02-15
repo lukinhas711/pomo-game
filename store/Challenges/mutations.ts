@@ -12,7 +12,7 @@ export default {
     const currentTotalXp = current + xpAmount
     const sholdLevelUp = currentTotalXp >= end
 
-    state.completeChallenges += 1
+    state.completedChallenges += 1
 
     if (sholdLevelUp){
       state.level += 1
@@ -39,6 +39,6 @@ export default {
   [Mutations.SAVE_COOKIE_DATA] (state, cookie) {
     state.level = cookie.level
     state.xp = cookie.xp
-    state.completeChallenges = cookie.completedChallenges
+    state.completedChallenges = cookie.completedChallenges
   },
 } as MutationsInterface;
